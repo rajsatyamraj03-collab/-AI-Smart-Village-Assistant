@@ -1,0 +1,9 @@
+const recognition = new webkitSpeechRecognition();
+recognition.lang = "hi-IN"; // Hindi support
+
+recognition.onresult = function(event) {
+  const text = event.results[0][0].transcript;
+  sendToGemini(text);
+};
+
+recognition.start();
