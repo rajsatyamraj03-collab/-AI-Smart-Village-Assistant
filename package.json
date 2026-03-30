@@ -1,0 +1,12 @@
+{
+  "name": "ai-smart-village-assistant",
+  "version": "1.0.0",
+  "description": "Voice-based AI assistant for rural communities using Google Gemini",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server frontend"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
