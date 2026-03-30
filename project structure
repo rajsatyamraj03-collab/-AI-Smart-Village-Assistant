@@ -1,0 +1,13 @@
+ai-smart-village-assistant/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+├── backend/
+│   └── firebase.js
+│
+├── .env.example
+├── README.md
+└── package.json
